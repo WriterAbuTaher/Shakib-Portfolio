@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+body h1{
+    font-size: 50px;
+}
+
+.sakib-name{
+    color: #793292;
+    font-weight: 600;
+}
+
+.first-div{
+    padding: 2%;
+}
+
+.first-image{
+    width: 100%;
+}
+
+.image-div{
+    padding: 2%;
+}
+
+.first-section{
+    display: flex;
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.link-button{
+    background-image: linear-gradient(#bb00ff, #793292);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
