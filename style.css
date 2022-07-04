@@ -7,7 +7,9 @@ body h1{
     font-size: 50px;
 }
 
-.sakib-name{
+/* first-section */
+
+.shakib-name{
     color: #793292;
     font-weight: 600;
 }
@@ -38,3 +40,22 @@ body h1{
     color: aliceblue;
     font-weight: 700;
 }
+
+/* second section */
+
+.second-section{
+    display: flex;
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 40px;
+}
+
+.second-image img{
+    width: 700px;
+}
+
+.second-div{
+    margin-top: 80px;
+}
+
