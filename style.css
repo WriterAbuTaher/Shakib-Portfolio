@@ -1,61 +1,104 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
-body h1{
-    font-size: 50px;
+body h1 {
+  font-size: 50px;
 }
 
 /* first-section */
 
-.shakib-name{
-    color: #793292;
-    font-weight: 600;
+.shakib-name {
+  color: #8d00c0;
+  font-weight: 600;
 }
 
-.first-div{
-    padding: 2%;
+.first-div {
+  padding: 2%;
 }
 
-.first-image{
-    width: 100%;
+.first-image {
+  width: 100%;
 }
 
-.image-div{
-    padding: 2%;
+.image-div {
+  padding: 2%;
 }
 
-.first-section{
-    display: flex;
-    background: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.first-section {
+  display: flex;
+  background: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 
-.link-button{
-    background-image: linear-gradient(#bb00ff, #793292);
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: aliceblue;
-    font-weight: 700;
+.link-button {
+  background-image: linear-gradient(#bb00ff, #793292);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 700;
 }
 
 /* second section */
 
-.second-section{
-    display: flex;
-    background: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-top: 40px;
+.second-section {
+  display: flex;
+  background: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 40px;
 }
 
-.second-image img{
-    width: 700px;
+.second-image img {
+  width: 700px;
 }
 
-.second-div{
-    margin-top: 80px;
+.second-div {
+  margin: 80px 20px 0 0;
 }
 
+/* third-section */
+
+.third-section {
+  margin-top: 100px;
+}
+
+.third-section h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.experience-area {
+  display: flex;
+}
+
+.experience-div {
+  margin: 0 5%;
+  padding: 0 5%;
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-div h2 {
+  font-size: 40px;
+}
+
+#first-experience{
+    border-left: 8px solid #bb00ff;
+    border-radius:2%;
+}
+
+#second-experience{
+    border-left: 8px solid #001aff;
+    border-radius:2%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+}
