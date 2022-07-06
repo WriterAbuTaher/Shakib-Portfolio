@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 body h1 {
@@ -9,13 +10,21 @@ body h1 {
 
 /* first-section */
 
-.shakib-name {
-  color: #8d00c0;
-  font-weight: 600;
+.first-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 
 .first-div {
-  padding: 2%;
+  margin-left: 2%;
+}
+
+.shakib-name {
+  color: #8d00c0;
+  font-weight: 600;
 }
 
 .first-image {
@@ -23,32 +32,32 @@ body h1 {
 }
 
 .image-div {
-  padding: 2%;
+  margin-right: 2%;
 }
 
-.first-section {
-  display: flex;
-  background: url(images/top-banner.png);
-  background-repeat: no-repeat;
-}
 
 .link-button {
-  background-image: linear-gradient(#bb00ff, #793292);
   text-decoration: none;
+  color: white;
+  background-image: linear-gradient(#bb00ff, #793292);
   padding: 10px 20px;
   border-radius: 5px;
-  color: aliceblue;
-  font-weight: 700;
+  font-size: 25px;
 }
 
 /* second section */
 
 .second-section {
   display: flex;
-  background: url(images/dream-bg.png);
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-  margin-top: 40px;
+}
+
+.second-image{
+  margin-left: 2%;
 }
 
 .second-image img {
@@ -56,10 +65,10 @@ body h1 {
 }
 
 .second-div {
-  margin: 80px 20px 0 0;
+  margin-right: 2%;
 }
 
-/* third-section */
+/* third section */
 
 .third-section {
   margin-top: 100px;
@@ -72,12 +81,14 @@ body h1 {
 
 .experience-area {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .experience-div {
   margin: 0 5%;
   padding: 0 5%;
-  width: 40%;
+  width: 100%;
   box-shadow: 10px 10px 40px gray;
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
@@ -90,13 +101,15 @@ body h1 {
 
 #first-experience{
     border-left: 8px solid #bb00ff;
-    border-radius:2%;
+    border-radius:10px;
 }
 
 #second-experience{
     border-left: 8px solid #001aff;
-    border-radius:2%;
+    border-radius:10px;
 }
+
+/* footer section */
 
 footer{
     text-align: center;
